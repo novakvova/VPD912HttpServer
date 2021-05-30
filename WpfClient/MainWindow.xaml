@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:WpfClient"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <Canvas>
+        <Image Name="imgDog" Height="141" Canvas.Left="50" Canvas.Top="122" Width="188"/>
+        <Button Name="btnGetData" Content="Отримати дані від сервера" Canvas.Left="46" Canvas.Top="24" Height="50" Width="196" Click="btnGetData_Click"/>
+    </Canvas>
 </Window>
